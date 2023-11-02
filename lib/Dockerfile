@@ -1,8 +1,8 @@
 FROM node:lts-buster
 
-RUN git clone https://github.com/Viper-X0/X-AsenaDuplicated/ /root/X
+RUN git clone https://github.com/vajirabot1/VAJIRA-MD/ /root/vajirabot1
 
-WORKDIR /root/X
+WORKDIR /root/vajirabot1
 
 RUN apt-get update && \
   apt-get install -y \
