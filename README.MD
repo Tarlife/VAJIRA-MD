@@ -1,6 +1,22 @@
+<div align="center">
+    😈<b>VAJIRA MD</b>😈</b>
+
+
+<p align="center">
+<a href="https://github.com/vajirabot1">
+    <img src="https://telegra.ph/file/26fa7a93ca90c0edaae45.jpg"  width="700px">
+  </a>
+
+
+
 #### Scan Here
 
 [![Run on Repl.it](https://repl.it/badge/github/phaticusthiccy/WhatsAsenaDuplicated)](https://xasena-qr.v1p3r-x.repl.co)
+
+ [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/vajirabot1/KING-VAJIRA-MD)
+
+</details>
+
 
 ## Deploy on any shell including termux
 
