@@ -1,12 +1,12 @@
 {
-    "name": "X-AsenaDuplicated",
+    "name": "VAJIRA-MD",
     "version":"4.0.0",
-    "description": "X-asena Multi Device whatsappbot",
-    "logo": "https://i.hizliresim.com/6Bbj7i.jpg",
+    "description": "Vajira Multi Device whatsappbot",
+    "logo": "https://telegra.ph/file/26fa7a93ca90c0edaae45.jpg",
     "keywords": ["whatsapp"],
-    "repository": "https://github.com/V1P3R-X/X-AsenaDuplicated",
-    "website": "https://github.com/V1P3R-X/X-AsenaDuplicated",
-    "success_url": "https://github.com/V1P3R-X/X-AsenaDuplicated",
+    "repository": "https://github.com/vajirabot1/VAJIRA-MD",
+    "website": "https://github.com/vajirabot1/VAJIRA-MD",
+    "success_url": "https://github.com/vajirabot1/VAJIRA-MD",
     "stack": "container",
     "env": {
         "ANTI_LINK": {
