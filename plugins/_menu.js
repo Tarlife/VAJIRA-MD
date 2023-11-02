@@ -73,7 +73,7 @@ command(
                     menu += `${cmd.trim()}\n`
                 });
             });
-            menu += `🔖Send ${prefix}menu <command name> to get detailed information of specific command.\n📍Eg: ${prefix}menu plugin`;
+            menu += `🔖එවන්න ${prefix}menu <command name> විශේෂිත විධානය පිළිබඳ සවිස්තරාත්මක තොරතුරු ලබා ගැනීමට.\n📍Eg: ${prefix}menu plugin`;
             return await message.sendMessage(tiny(menu));
         }
     }
