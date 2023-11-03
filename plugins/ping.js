@@ -9,6 +9,7 @@ command(
         pattern: "ping",
         fromMe: false,
         desc: "To check ping",
+        react: "👨‍💻"
         type: "user",
     },
     async (message, match) => {
@@ -16,7 +17,7 @@ command(
         await message.sendMessage(tiny("*ping*"));
         const end = new Date().getTime();
         return await message.sendMessage(tiny(
-            "*Pong!*\n " + (end - start) + " *ms*"
+            "*📍Pong Vajira!*\n " + (end - start) + " *ms*"
         ));
     }
 );
