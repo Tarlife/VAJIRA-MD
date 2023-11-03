@@ -13,7 +13,7 @@ command(
     },
     async (message, match) => {
         const start = new Date().getTime();
-        await message.sendMessage(tiny("*ping*"));
+        await message.sendMessage(tiny("*🔄➪ping to VAJIRA-MD*"));
         const end = new Date().getTime();
         return await message.sendMessage(tiny(
             "*📍Pong Vajira!*\n " + (end - start) + " *ms*"
