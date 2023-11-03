@@ -16,7 +16,6 @@ command(
         pattern: "menu",
         fromMe: isPrivate,
         desc: "Show All commands",
-        react: "👨‍💻"
         dontAddCommandList: true,
         type: "user",
     },
