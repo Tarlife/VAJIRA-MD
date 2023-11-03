@@ -9,7 +9,6 @@ command(
         pattern: "ping",
         fromMe: false,
         desc: "To check ping",
-        react: "👨‍💻"
         type: "user",
     },
     async (message, match) => {
