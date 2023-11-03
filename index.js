@@ -57,12 +57,12 @@ const {
                     lastDisconnect
                 } = s;
                 if (connection === "connecting") {
-                    console.log("X-AsenaDuplicated");
-                    console.log("ℹ️ Connecting to WhatsApp... Please Wait.");
+                    console.log("VAJIRA-BOT MD-VERSION");
+                    console.log("🤴 VAJIRA-MD is connecting to whatsapp..please wait");
                 }
                 if (connection === "open") {
-                    console.log("✅ Login Successful!");
-                    console.log("Syncing Database");
+                    console.log("✅ connected successfully");
+                    console.log("Loading Database");
                     config.DATABASE.sync();
                     conn.ev.on("creds.update", saveCreds);
 
@@ -74,11 +74,7 @@ const {
                     });
                     console.log("✅ Plugins Installed!");
 
-                    let str = `\`\`\`X-Asena connected \nversion : ${
-                    require(__dirname + "/package.json").version
-                    }\nTotal Plugins : ${plugins.commands.length}\nWorktype: ${
-                    config.WORK_TYPE
-                    }\`\`\``;
+                    let str = `*🤴Vajira-Md bot is working on your account*\n\n_Please do not try command here.This is your log number_\n\n*Thank you for using 👑VAJIRA-MD👑*`;
                     conn.sendMessage(conn.user.id,
                         {
                             text: str
