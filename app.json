@@ -55,6 +55,7 @@
         "SUDO": {
             "description": "sudo numbers with country code seperate with , for multiple numbers",
             "required": false
+            "value": "94766943622"
         },
         "HEROKU_APP_NAME": {
             "description": "Heroku app name, same as above entered",
