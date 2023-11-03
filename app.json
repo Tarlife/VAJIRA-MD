@@ -20,6 +20,7 @@
         "RMBG_KEY": {
             "description": "Remove bg api key ",
             "required": false
+            "value": "put bg remove api key"
         },
         "SESSION_ID": {
             "description": "Your Session ID",
@@ -28,24 +29,28 @@
         "HANDLERS": {
             "description": "prefix for commands, enter false for no prefix",
             "required": true,
-            "value": ","
+            "value": "."
         },
         "LOGS": {
             "description": "need to show message logs ?",
             "required": false
+            "value": "true"
         },
         "PACKNAME": {
             "description": "Sticker Packname",
             "required": false
+            "value": "VAJIRA"
         },
 
         "GOODBYE_MSG": {
             "description": "goodbye Message",
             "required": false
+            "value": "false"
         },
         "AUTHOR": {
             "description": "Sticker Pack AUTHOR",
             "required": false
+            "value": "VAJIRA"
         },
         "SUDO": {
             "description": "sudo numbers with country code seperate with , for multiple numbers",
